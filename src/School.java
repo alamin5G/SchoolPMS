@@ -7,9 +7,7 @@ public class School {
     private static int totalMoneyEarned;
     private static int totalMoneySpent;
 
-    public School(){
 
-    }
     public School(List<Teacher> teacher, List<Student> student) {
         this.teacher = teacher;
         this.student = student;
